@@ -14,9 +14,9 @@ Description
 
 Framework: AVFoundation
 
-**DVSimpleAudioPlayer** – player object without graphic controls.
-**DVSimpleAudioPlayerBaseView** – UIView extension include *DVSimpleAudioPlayer*.
-**DVSimpleAudioPlayerView** – full completed simple audio player. Extension from *DVSimpleAudioPlayerBaseView*.
+ * **DVSimpleAudioPlayer** – player object without graphic controls.
+ * **DVSimpleAudioPlayerBaseView** – UIView extension include *DVSimpleAudioPlayer*.
+ * **DVSimpleAudioPlayerView** – full completed simple audio player. Extension from *DVSimpleAudioPlayerBaseView*.
 
 Example
 =======
