@@ -130,12 +130,12 @@
 		8C0938B816A6C794001C5F36 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				8C7AA31316ABEB6000EFE711 /* DVSimpleAudioPlayerBaseView.m */,
-				8C7AA31416ABEB6000EFE711 /* DVSimpleAudioPlayer.m */,
+				8C7AA31716ABEB6000EFE711 /* DVSimpleAudioPlayerView.h */,
 				8C7AA31516ABEB6000EFE711 /* DVSimpleAudioPlayerView.m */,
 				8C7AA31616ABEB6000EFE711 /* DVSimpleAudioPlayerBaseView.h */,
-				8C7AA31716ABEB6000EFE711 /* DVSimpleAudioPlayerView.h */,
+				8C7AA31316ABEB6000EFE711 /* DVSimpleAudioPlayerBaseView.m */,
 				8C7AA31816ABEB6000EFE711 /* DVSimpleAudioPlayer.h */,
+				8C7AA31416ABEB6000EFE711 /* DVSimpleAudioPlayer.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";

@@ -112,14 +112,31 @@
     return [self show:eAudioPlayerDisplayFade position:eAudioPlayerPositionBottom];
 }
 
+- (id)initWithFrame:(CGRect)frame
+{
+    if (nil != (self=[super initWithFrame:frame]))
+    {
+        [self initPlayerControl];
+    }
+    return self;
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    if (nil != (self=[super initWithCoder:aDecoder]))
+    {
+        [self initPlayerControl];
+    }
+    return self;
+}
+
 - (id)initWithView:(UIView *)view
 {
     CGRect frame = view.bounds;
     frame.size.height = 60;
     frame.origin.y = -60;
-    if (nil != (self=[super initWithFrame:frame]))
+    if (nil != (self=[self initWithFrame:frame]))
     {
-        [self initPlayerControl];
         [view addSubview:self];
         [view bringSubviewToFront:self];
     }
