@@ -16,6 +16,7 @@
 
 - (void)dealloc
 {
+    [player stop];
     [player release];
     [self stopTimer];
     [super dealloc];
@@ -94,6 +95,11 @@
     if (!file || nil==[self getOrCreatePlayer])
         return NO;
 
+    // Init audio with playback capability
+    AVAudioSession *audioSession = [AVAudioSession sharedInstance];
+    [audioSession setCategory:AVAudioSessionCategoryPlayback error:nil];
+
+    // Play audio
     if ([player play])
     {
         [self startTimer];
