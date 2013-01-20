@@ -17,6 +17,8 @@
 - (BOOL)isPause;
 
 - (BOOL)play;
+- (void)pause;
+- (void)stop;
 
 - (void)configureView;
 - (void)updateTime;

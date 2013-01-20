@@ -152,6 +152,16 @@
     return NO;
 }
 
+- (void)pause
+{
+    [player pause];
+}
+
+- (void)stop
+{
+    [player stop];
+}
+
 #pragma mark -
 #pragma mark Events
 
